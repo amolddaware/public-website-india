@@ -1,0 +1,96 @@
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+// hr
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+a {
+  text-decoration: none;
+  color: $color-primary;
+}
+
+// List
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  ol,
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+// Small
+small {
+  font-size: 80%;
+}
+
+// Color and Bg class
+.color-primary {
+  color: $color-primary;
+}
+
+.bg-color-primary {
+  background-color: $color-primary;
+}
+
+.color-black {
+  color: $color-black;
+}
+
+.bg-color-black {
+  background-color: $color-black;
+}
+
+.color-darken-black {
+  color: $color-darken-black;
+}
+
+.bg-color-darken-black {
+  background-color: $color-darken-black;
+}
+
+.color-white {
+  color: $color-white;
+}
+
+.color-gold {
+  color: $color-primary;
+}
+
+.color-light-cream {
+  color: $color-light-cream;
+}
+
+.color-dark-cream{
+  color: $color-dark-cream;
+}
+
+.bg-color-white {
+  background-color: $color-white;
+}
+
+.bg-background-light-cream {
+  background-color: $color-light-cream;
+}
+
+.bg-background-dark-cream{
+  background-color: $color-dark-cream;
+}
+
+.bg-background-gold{
+  background-color: $color-primary;
+}

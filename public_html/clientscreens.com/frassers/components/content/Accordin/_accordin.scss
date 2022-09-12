@@ -1,0 +1,99 @@
+.cmp-accordion{
+  &__title{
+    font-family: "Cormorant_Garamond-SemiBold";
+    font-size: 24px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  &__number{
+    font-size: 24px;;
+    color: #000000;
+    font-family:"Times-Regular";
+  }
+  &__header{
+    button{   
+      width: 1150px;
+      background-color: #FFFFFF;
+      text-align: left;
+      cursor: pointer;   
+      border:none;
+      border-top: 1px solid #866D4B;     
+      padding: 15px 0;
+    }
+       
+  }
+  &__list__header{ 
+    padding:27px 0; 
+    p{
+      color:black!important;
+     font-family: 'Roboto-Medium';
+     font-size: 18px;
+     text-align: left;
+    }
+    ul{
+      margin: 0px;
+      padding: 0px;
+      text-align: left;
+       li{
+        list-style: none;
+        font-size: 18px;
+         color: #866D4B; 
+         padding:10px 0px;
+         font-family: 'Roboto-Regular';
+        }
+    }
+}
+&__text{
+    padding: 0 6px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+   transition: max-height 0.2s ease-out;
+   
+}
+&__icon{
+    i{
+        float: right;
+        font-size: 15px;
+     }
+     .upward{
+         display: none;
+   }
+}
+}
+
+//2-colum-1 row
+.cols-2-1-row
+{
+    display: grid;
+    grid-template-columns:400px 400px;
+    grid-template-rows: 1fr; 
+    grid-row-gap: 17px;
+    
+}
+//3-colum-1 row
+.cols-3-1-row
+{
+    display: grid;
+    grid-template-columns:2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;  
+    grid-row-gap: 17px;
+    
+}
+//1-colum-1 row
+.cols-1-1-row
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+}
+//3-colum-4 row
+.cols-3-4-rows
+{
+    display: grid;
+    grid-template-columns:repeat(3,2fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 17px;
+}
+

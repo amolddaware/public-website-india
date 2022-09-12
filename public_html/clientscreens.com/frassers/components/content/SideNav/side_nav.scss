@@ -1,0 +1,294 @@
+.cmp-side-nav {
+  position: relative;
+
+  .vertical-label {
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    font: normal 18px/24px "Roboto-Regular";
+    @extend .color-primary;
+    color: $color-primary;
+    letter-spacing: 0;
+  }
+
+  &__link {
+    position: fixed;
+    width: auto;
+    height: 180px;
+    top: 41.85%;
+    z-index: 1;
+
+    &__left {
+      margin-left: 28px;
+      writing-mode: rl-bt;
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+    }
+
+    &__right {
+      margin-right: 28px;
+    }
+  }
+
+  .prev-link {
+    left: 0;
+  }
+
+  .next-link {
+    right: 0;
+    top: 44.9%;
+  }
+
+  &__right-wrapper,
+  &__left-wrapper {
+    display: none;
+    transition: all 1s;
+  }
+
+  &__left-wrapper {
+    left: 0;
+  }
+
+  &__right-wrapper {
+    right: 0;
+  }
+
+  &__right-desc,
+  &__left-desc {
+    display: flex;
+    align-items: center;
+    padding: 28px;
+    z-index: 101;
+    box-shadow: -20px 20px 40px #00000029;
+    transition: all 1s;
+    @extend .bg-color-white;
+
+    @include breakpoint(mobile-max) {
+      width: 100%;
+    }
+
+    &__link {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      .fa {
+        @extend .color-primary;
+        font-size: 2rem;
+        padding-right: 15px;
+      }
+    }
+
+    &__img {
+      position: relative;
+      overflow: hidden;
+
+      &__desc {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 17px 10px;
+        background: transparent linear-gradient(160deg, #00000000 0%, #000000b1 52%, #000000 100%);
+
+        h3 {
+          text-align: left;
+          font: normal 28px/30px "Cormorant_Garamond-Regular";
+          @extend .color-white;
+          text-transform: capitalize;
+          margin-bottom: 10px;
+        }
+
+        .btn-gold {
+          writing-mode: horizontal-tb;
+          text-align: center;
+          font: normal normal normal 20px/24px "Cormorant_Garamond-Regular";
+          @extend .color-white;
+          padding: 5px 30px;
+
+          &:hover {
+            @extend .bg-color-primary;
+            @extend .color-white;
+          }
+        }
+      }
+
+      a {
+        display: block;
+      }
+    }
+  }
+
+  &__left-desc {
+
+    // left: 0;
+    &__link {
+      .fa {
+        padding-left: 20px;
+      }
+    }
+  }
+
+  &__right-desc {
+    &__link {
+      margin: 30px 0 30px auto;
+    }
+  }
+
+  &__left-desc {
+    &__link {
+      margin: 30px auto 30px 0;
+    }
+  }
+
+  .btn-label {
+    display: inline-block;
+    border: 1px solid transparent;
+    margin: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Cormorant_Garamond-Regular";
+    font-size: 1rem;
+    line-height: 23px;
+    letter-spacing: 0px;
+    writing-mode: horizontal-tb;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #866d4b !important;
+    color: #fff !important;
+  }
+
+  .prev-label {
+    writing-mode: rl-bt;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+  }
+
+  .notification-container-left {
+    position: fixed;
+    top: 20%;
+    width: 447px;
+    height: 430px;
+    display: none;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    z-index: 100;
+  }
+
+  .notification-container-right {
+    position: fixed;
+    top: 20%;
+    width: 447px;
+    height: 430px;
+    display: none;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    z-index: 100;
+  }
+
+  .selected-slide-in-rl {
+    animation: slide-in-rl 0.5s forwards;
+    -webkit-animation: slide-in-rl 0.5s forwards;
+  }
+
+  .dismiss-slide-in-rl {
+    animation: slide-out-rl 0.5s forwards;
+    -webkit-animation: slide-out-rl 0.5s forwards;
+  }
+
+  @keyframes slide-in-rl {
+    0% {
+      -webkit-transform: translateX(100%);
+    }
+
+    100% {
+      -webkit-transform: translateX(0%);
+    }
+  }
+
+  @-webkit-keyframes slide-in-rl {
+    0% {
+      transform: translateX(100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes slide-out-rl {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  @-webkit-keyframes slide-out-rl {
+    0% {
+      -webkit-transform: translateX(0%);
+    }
+
+    100% {
+      -webkit-transform: translateX(100%);
+    }
+  }
+
+  // For slide from left to right
+  .selected-slide-in-lr {
+    animation: slide-in-lr 0.5s forwards;
+    -webkit-animation: slide-in-lr 0.5s forwards;
+  }
+
+  .dismiss-slide-in-lr {
+    animation: slide-out-lr 0.5s forwards;
+    -webkit-animation: slide-out-lr 0.5s forwards;
+  }
+
+  @keyframes slide-in-lr {
+    0% {
+      -webkit-transform: translateX(-100%);
+    }
+
+    100% {
+      -webkit-transform: translateX(0%);
+    }
+  }
+
+  @-webkit-keyframes slide-in-lr {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes slide-out-lr {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @-webkit-keyframes slide-out-lr {
+    0% {
+      -webkit-transform: translateX(0%);
+    }
+
+    100% {
+      -webkit-transform: translateX(-100%);
+    }
+  }
+}

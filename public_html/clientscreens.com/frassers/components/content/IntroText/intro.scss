@@ -1,0 +1,56 @@
+.intro_text {
+    &_logo
+    {
+        width: 100%;
+        max-width: 240px;
+        margin: 20px auto;
+        padding: 20px 10px;
+
+        img {
+          width: 100%;
+        }
+    }
+    &_header
+    {
+        text-align: center;
+        font-size: 36px;
+        margin: 10px 0;
+        font-family: "Cormorant_Garamond-Medium";
+        color: #222222;
+
+    }
+    &_description
+    {
+        width: 100%;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        
+        p {
+            font-size: 24px;;
+            font-family: "Cormorant_Garamond-SemiBold";
+            color:#222222;
+        }
+    }
+}
+
+.intro_text_container {
+  padding: 50px 0;
+}
+
+.intro_text_read-more-btn-area {
+  a.read-more-btn,
+  a.read-less-btn {
+    font-size: 16px;
+    font-family: "Cormorant_Garamond-SemiBold";
+    text-transform: uppercase;
+  }
+  .read-less-btn {
+    display: none;
+  }
+}
+
+.intro_text_description .more-text {
+   display: none;
+ }

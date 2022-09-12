@@ -1,0 +1,160 @@
+<section
+  class="home-booking-widget"
+  data-hotelList="../../resources/utils/hotelsArrList.json"
+  data-calendar-availability="https://109859-fraserpoc.adobeioruntime.net/api/v1/web/fraserpoc-0.0.1/calendar-availability?hotelId={0}&currencyCode={1}&bufferDays={2}&roomCount={3}&adults={4}&startDate={5}&endDate={6}&rateCode={7}"
+  data-validate-promocode="https://109859-fraserpoc.adobeioruntime.net/api/v1/web/fraserpoc-0.0.1/validate-promo-code?promoCode={0}"
+  data-property-placeholder="Please Enter.."
+  data-error-message="General Error Message"
+  data-promo-code-text="Enter Promo Code"
+  data-promo-code-error-message="Promo Code invalid"
+  data-country-city-path="https://google.com"
+  data-calendar-error-message="Invalid selection date"
+  data-text-adult="Adults"
+  data-text-children="Children"
+  data-text-child="Child"
+  data-text-age="Age"
+>
+  <div class="home-booking-widget_section">
+    <div class="home-booking-widget_section-top">
+      <div class="home-booking-widget_section-top__search_container">
+        <i class="fa fa-search"></i>
+        <input
+          type="text"
+          class="home-booking-widget_section-top__search_container_input gold_input"
+          autocomplete="off"
+          placeholder="Please Enter.."
+          id="search-booking"
+        />
+        <div class="auto-search-panel">
+          <ul></ul>
+        </div>
+      </div>
+      <div class="home-booking-widget_section-top__date_picker">
+        <input
+          id="home_booking_calendar"
+          name="dates"
+          type="text"
+          class="home-booking-widget_section-top__search_container--date_input gold_input"
+          placeholder="Thu, Jun 03 - Sat, Jun 05"
+          name="daterangepicker"
+          data-placeholder=""
+        />
+      </div>
+      <div class="home-booking-widget_section-top__pax_selector">
+        <p class="home-booking-widget_section-top__pax_selector-input">
+          1 adults, 0 children
+        </p>
+        <div class="pax-details">
+          <div class="pax-details__row adult">
+            <div class="pax-details__row_container adult">
+              <span class="pax-details__row_container--title">adults</span>
+            </div>
+            <div class="pax-details__row--content">
+              <div class="pax-details__row--content__item">
+                <div class="pax-details__row--content__item--number">
+                  <!-- <input type="number" value="0"  /> -->
+                  <p>1</p>
+                  <span>Adults</span>
+                </div>
+              </div>
+              <div class="pax-details__row--content__item">
+                <a
+                  class="pax-details__row--content__item--minus remove_btn disabled"
+                  ><i class="fa fa-minus"></i
+                ></a>
+                <a class="pax-details__row--content__item--plus add_btn"
+                  ><i class="fa fa-plus"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="pax-details__row children">
+            <div class="pax-details__row_container children">
+              <span class="pax-details__row_container--title">children</span>
+            </div>
+            <div class="pax-details__row--content">
+              <div class="pax-details__row--content__item">
+                <div class="pax-details__row--content__item--number">
+                  <!-- <input type="number" value="0"  /> -->
+                  <p>0</p>
+                  <span>Children</span>
+                </div>
+              </div>
+              <div class="pax-details__row--content__item">
+                <a
+                  class="pax-details__row--content__item--minus remove_btn disabled"
+                  ><i class="fa fa-minus"></i
+                ></a>
+                <a class="pax-details__row--content__item--plus add_btn"
+                  ><i class="fa fa-plus"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="adult-age-group"></div>
+          <div class="child-age-group"></div>
+        </div>
+      </div>
+      <div class="home-booking-widget_section-top__check_rate">
+        <button class="btn btn-gold button-full-width check-rate-be">
+          check rates
+        </button>
+      </div>
+    </div>
+    <div class="home-booking-widget_section-bottom">
+      <div class="home-booking-widget_section-bottom_container">
+        <div class="home-booking-widget_section-bottom_container--left">
+          <div class="form-checkbox">
+            <input class="checkbox" type="checkbox" id="checkbox1" />
+            <label for="checkbox1" tabindex="1">use points</label>
+          </div>
+          <div class="form-control">
+            <input
+              type="text"
+              class="home-booking-widget_section-bottom_container--left_promo_code"
+              id="promo-code"
+              placeholder="enter promo code"
+            />
+          </div>
+          <div class="form-control">
+            <p
+              class="home-booking-widget_section-bottom_container--left_promo_code--error bw-error-message"
+            >
+              please enter the right code.
+            </p>
+          </div>
+        </div>
+        <div class="home-booking-widget_section-bottom_container--right">
+          <a href="">Best Rates Guarantee</a>
+          <div class="pops-left">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+              quos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <form
+    id="booking-form"
+    action="https://be-cuat.synxis.com/"
+    method="get"
+    target="_blank"
+    autocomplete="off"
+  >
+    <input type="hidden" id="level" name="level" value="hotel" />
+    <input type="hidden" id="hotel" name="hotel" value="" />
+    <input type="hidden" id="depart" name="depart" value="" />
+    <input type="hidden" id="arrive" name="arrive" value="" />
+    <input type="hidden" id="chain" name="chain" value="10322" />
+    <input type="hidden" id="adult" name="adult" value="1" />
+    <input type="hidden" id="child" name="child" value="0" />
+    <input type="hidden" id="childages" name="childages" value="" />
+    <input type="hidden" id="currency" name="currency" value="SGD" />
+    <input type="hidden" id="locale" name="locale" value="en-US" />
+    <input type="hidden" id="rooms" name="rooms" value="1" />
+    <input type="hidden" id="Promo" name="Promo" value="" />
+  </form>
+</section>

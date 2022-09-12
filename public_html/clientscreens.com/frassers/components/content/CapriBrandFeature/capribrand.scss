@@ -1,0 +1,182 @@
+.capribrand_feature {
+    &_container {
+        height: 720px;
+        padding-bottom: 10px;
+        //  grid-template-columns: 0.3fr 0.7fr;
+        // grid-template-columns: 0.6fr 0.6fr;
+        margin-bottom: 10px;
+        &_left {
+            width: 50%;
+            float: left;
+            height: 720px;
+            background-color: #e5e5e5;
+            &_container {
+                max-width: 600px;
+                height: 720px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            &_logo {
+                max-width: 340px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 132px;
+                margin-bottom: 72px;
+            }
+            &_discription {
+                max-width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                font-size: 18px;
+                color: #611a8e;
+                margin-top: 10px;
+                margin-bottom: 15px;
+            }
+            &_readMore {
+                text-align: center;
+                padding: 10px 0px;
+                margin: 30px 0px;
+                color: #611a8e;
+                font-size: 16px;
+            }
+        }
+        &_right {
+            float: left;
+            width: 50%;
+            height: 720px;
+            position: relative;
+            &_buttons {
+                position: absolute;
+                border: 1px solid greenyellow;
+                left: 0%;
+                top: 10%;
+                background-color: greenyellow;
+            }
+            i:nth(1) {
+                position: absolute;
+                margin-right: 10px;
+            }
+            i:nth(2) {
+                position: absolute;
+                right: 0;
+            }
+            &_carousel {
+                background-color: #3e3b37;
+                .swiper-slide {
+                    width: 275px;
+                }
+                height: 720px;
+            }
+            &_content {
+                width: 275px;
+                margin-top: 80px;
+            }
+            &_image {
+                height: 377px;
+                img {
+                    height: 96%;
+                }
+            }
+            &_lineVertical {
+                .line {
+                    height: 50px;
+                    width: 1px;
+                    background-color: white;
+                    margin-left: 130px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+            &_header {
+                text-align: center;
+                //    border: 1px solid green;
+                padding: 10px 0px;
+                color: white;
+                font-size: 24px;
+            }
+            &_discription {
+                //    border: 1px solid green;
+                text-align: center;
+                font-size: 16px;
+                color: white;
+            }
+        }
+    }
+}
+
+.capr-brand-expandclass {
+    width: 1;
+}
+
+.underline {
+    border-bottom: 1px solid #611a8e;
+    padding-bottom: 4px;
+}
+
+.capri-color {
+    color: #611a8e;
+}
+
+#first {
+    margin-left: 80px;
+}
+
+.capribrand_feature_container_right {
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev {
+        right: 30px;
+        left: auto;
+        top: 44%;
+    }
+    .swiper-button-next::after {
+        position: relative;
+    }
+    .swiper-button-next:after,
+    .swiper-container-rtl .swiper-button-prev:after {
+        content: "\2192";
+        color: white;
+        font-size: 38px;
+        height: 60px;
+        width: 60px;
+        background-color: #611a8e;
+        border-radius: 50%;
+        padding-left: 10px;
+        padding-top: 9px;
+        padding-right: 10px;
+    }
+    .swiper-button-prev:after,
+    .swiper-container-rtl .swiper-button-prev:after {
+        content: "\2190";
+        background-color: #611a8e;
+        height: 60px;
+        width: 60px;
+        color: white;
+        border-radius: 50%;
+        padding-left: 10px;
+        padding-top: 5px;
+        align-items: center;
+    }
+    .swiper-button-prev::after {
+        position: absolute;
+        left: 20px;
+        top: -40px;
+    }
+    .swiper-slide {
+        margin-right: 20px;
+        margin-left: 10px;
+        width: 475px;
+    }
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+        left: 19px;
+    }
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+        left: 0px;
+    }
+    .capribrand_feature_container_right .swiper-button-prev,
+    .capribrand_feature_container_right .swiper-container-rtl .swiper-button-next {
+        left: 50px;
+    }
+}

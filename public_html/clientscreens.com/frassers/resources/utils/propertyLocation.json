@@ -1,0 +1,65 @@
+[
+	{
+		"country": "India",
+		"countryId": 123,
+		"hotelID": "52624",
+		"name": "Fraser Suites CBD, Maharashtra India",
+		"address": "10 Adelaide Terrace, Sydney, Australia, 6004",
+		"phone": "+61892610000",
+		"facsimile": "+61892610001",
+		"tollfree": "1800099465",
+		"email": "sales.sydney@frasershospitality.com",
+		"reservationEmail": "reservations.sydney@frasershospitality.com",
+		"airportInfo": "Sydney Airport (SYD)",
+		"distanceToProperty": "30 miles",
+		"transferAvailable": true,
+		"hotels": [
+			{
+				"country": "India",
+				"countryId": 123,
+				"city": "Maharashtra",
+				"stateId": "mh",
+				"rateCode": "0956",
+				"memberRateCode": 4564,
+				"latitude": 20.5937,
+				"longitude": 78.9629,
+				"name": "Fraser Suites CBD, Maharashtra India",
+				"hotelID": "52624",
+				"detailsLink": "...",
+				"ratesLink": "...",
+				"price": 35,
+				"membersPrice": 15,
+				"images": [
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png"
+				],
+				"newProperty": true,
+				"awardImage": ""
+			},
+			{
+				"country": "India",
+				"countryId": 123,
+				"city": "Maharashtra",
+				"stateId": "mh",
+				"rateCode": "0956",
+				"memberRateCode": 4564,
+				"latitude": 20.6937,
+				"longitude": 78.5629,
+				"name": "Fraser Suites Akasaka, Maharashtra India",
+				"hotelID": "61251",
+				"detailsLink": "...",
+				"ratesLink": "...",
+				"price": 35,
+				"membersPrice": 15,
+				"images": [
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png"
+				],
+				"newProperty": true,
+				"awardImage": "../../resources/images/column-control/Group_3833.svg"
+			}
+		]
+	}
+]

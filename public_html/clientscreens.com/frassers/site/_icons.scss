@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "#{$icomoon-font-family}";
+  src:
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff") format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf") format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?##{$icomoon-font-family}") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="fh-icon-"],
+[class*=" fh-icon-"] {
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../resources/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2') format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.fh-icon-call {
+  &::before {
+    content: $fh-icon-call;
+  }
+}
+
+.fh-icon-check-cirlce {
+  &::before {
+    content: $fh-icon-check-cirlce;
+  }
+}
+
+.fh-icon-close {
+  &::before {
+    content: $fh-icon-close;
+  }
+}
+
+.fh-icon-down-arrow {
+  &::before {
+    content: $fh-icon-down-arrow;
+  }
+}
+
+.fh-icon-facebook {
+  &::before {
+    content: $fh-icon-facebook;
+  }
+}
+
+.fh-icon-filter {
+  &::before {
+    content: $fh-icon-filter;
+  }
+}
+
+.fh-icon-grid {
+  &::before {
+    content: $fh-icon-grid;
+  }
+}
+
+.fh-icon-information {
+  &::before {
+    content: $fh-icon-information;
+  }
+}
+
+.fh-icon-instagram {
+  &::before {
+    content: $fh-icon-instagram;
+  }
+}
+
+.fh-icon-invisible {
+  &::before {
+    content: $fh-icon-invisible;
+  }
+}
+
+.fh-icon-left-arrow {
+  &::before {
+    content: $fh-icon-left-arrow;
+  }
+}
+
+.fh-icon-line-arrow-left {
+  &::before {
+    content: $fh-icon-line-arrow-left;
+  }
+}
+
+.fh-icon-line-arrow-right {
+  &::before {
+    content: $fh-icon-line-arrow-right;
+  }
+}
+
+.fh-icon-linkedin {
+  &::before {
+    content: $fh-icon-linkedin;
+  }
+}
+
+.fh-icon-list {
+  &::before {
+    content: $fh-icon-list;
+  }
+}
+
+.fh-icon-location {
+  &::before {
+    content: $fh-icon-location;
+  }
+}
+
+.fh-icon-mail {
+  &::before {
+    content: $fh-icon-mail;
+  }
+}
+
+.fh-icon-minus {
+  &::before {
+    content: $fh-icon-minus;
+  }
+}
+
+.fh-icon-plus {
+  &::before {
+    content: $fh-icon-plus;
+  }
+}
+
+.fh-icon-right-arrow {
+  &::before {
+    content: $fh-icon-right-arrow;
+  }
+}
+
+.fh-icon-search {
+  &::before {
+    content: $fh-icon-search;
+  }
+}
+
+.fh-icon-tick {
+  &::before {
+    content: $fh-icon-tick;
+  }
+}
+
+.fh-icon-twitter {
+  &::before {
+    content: $fh-icon-twitter;
+  }
+}
+
+.fh-icon-twitter-outline {
+  &::before {
+    content: $fh-icon-twitter-outline;
+  }
+}
+
+.fh-icon-up-arrow {
+  &::before {
+    content: $fh-icon-up-arrow;
+  }
+}
+
+.fh-icon-users-group {
+  &::before {
+    content: $fh-icon-users-group;
+  }
+}
+
+.fh-icon-visibility {
+  &::before {
+    content: $fh-icon-visibility;
+  }
+}
+
+.fh-icon-youtube {
+  &::before {
+    content: $fh-icon-youtube;
+  }
+}
+
+.fh-icon-wechat {
+  &::before {
+    content: $fh-icon-wechat;
+  }
+}
+
+.fh-icon-calendar {
+  &::before {
+    content: $fh-icon-calendar;
+  }
+}

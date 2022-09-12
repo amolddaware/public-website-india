@@ -1,0 +1,203 @@
+.modena-brand-feature-container {
+    .mbf-first-section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .mbf-col-6 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .bg-blue {
+            background: #00ABC7;
+            background-image: url('../../../resources/images/Modena/modena-color-arc.png');
+            background-position-x: right;
+            background-position-y: bottom;
+            background-repeat: no-repeat;
+            h1 {
+                font-family: Roboto, sans-serif;
+                font-weight: 100;
+                font-size: 50px;
+                display: inline-block;
+                position: relative;
+                margin-bottom: 40px;
+                span {
+                    position: absolute;
+                    bottom: -10px;
+                    right: 0;
+                    font-family: Cormorant Garamond;
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+            }
+            .mdf-txt {
+                font-family: Roboto, sans-serif;
+                font-weight: 100;
+                font-size: 25px;
+            }
+            .link {
+                margin-top: 50px;
+                a {
+                    color: #fff;
+                    font-family: Roboto, sans-serif;
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    opacity: 0.9;
+                }
+            }
+        }
+        .mbf-sec-content {
+            width: 80%;
+            margin: 0 auto;
+            color: #fff;
+            .modena-brand-logo {
+                img {
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+    .mbf-second-section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .bg-gray {
+            background: #E6E4E4;
+            background-image: url('../../../resources/images/Modena/modena-white-arc.png');
+            background-position-x: right;
+            background-position-y: top;
+            background-repeat: no-repeat;
+            .mbf-slide {
+                display: none;
+                text-align: center;
+                .mdf-slide-cnt {
+                    width: 500px;
+                    max-width: 95%;
+                    margin: 0 auto;
+                    h5 {
+                        font-size: 18px;
+                        color: #00ABC7;
+                        text-transform: uppercase;
+                        font-weight: 300;
+                        margin-bottom: 20px;
+                    }
+                    h1 {
+                        font-size: 40px;
+                        margin-bottom: 50px;
+                        font-weight: 300;
+                        color: #000;
+                        display: inline-block;
+                        border-bottom: 1px solid #00ABC7;
+                    }
+                    p {
+                        font-family: Roboto, sans-serif;
+                        font-size: 18px;
+                        font-weight: 300;
+                    }
+                }
+            }
+            .mbf-content-carousel {
+                position: relative;
+                margin: auto;
+            }
+            .fade {
+                -webkit-animation-name: fade;
+                -webkit-animation-duration: 1.5s;
+                animation-name: fade;
+                animation-duration: 1.5s;
+            }
+            @-webkit-keyframes fade {
+                from {
+                    opacity: .4
+                }
+                to {
+                    opacity: 1
+                }
+            }
+            @keyframes fade {
+                from {
+                    opacity: .4
+                }
+                to {
+                    opacity: 1
+                }
+            }
+        }
+        .mbf-col-6 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .mbf-full-width {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .modena-brand-feature-container {
+        .mbf-first-section {
+            height: auto;
+            display: block;
+            .bg-blue {
+                display: block;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                h1 {
+                    font-size: 40px !important;
+                    span {
+                        font-size: 16px !important;
+                    }
+                }
+                .mdf-txt {
+                    font-size: 18px !important;
+                }
+                .link a {
+                    font-size: 14px !important
+                }
+            }
+            .mbf-col-6 {
+                width: 100%;
+                .mbf-img {
+                    width: 100%;
+                }
+            }
+        }
+        .mbf-second-section {
+            height: auto;
+            display: block;
+            .bg-gray {
+                display: block;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                .mdf-slide-cnt {
+                    width: auto;
+                    padding: 30px;
+                    h1 {
+                        font-size: 30px !important;
+                    }
+                    h5,
+                    p {
+                        font-size: 16px !important;
+                    }
+                }
+            }
+            .mbf-col-6 {
+                width: 100%;
+            }
+        }
+    }
+}

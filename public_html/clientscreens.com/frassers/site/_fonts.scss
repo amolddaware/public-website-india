@@ -1,0 +1,72 @@
+@import "../resources/vendor/font-awesome/scss/font-awesome.scss";
+
+/* font for Roboto */
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../resources/fonts/Roboto/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../resources/fonts/Roboto/Roboto-Bold.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url('../resources/fonts/Roboto/Roboto-Black.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url('../resources/fonts/Roboto/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url('../resources/fonts/Roboto/Roboto-Medium.ttf');
+}
+/* Cormorant_Garamond */
+@font-face {
+  font-family: 'Cormorant_Garamond-Regular';
+  src: url('../resources/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf');
+}
+@font-face {
+  font-family: 'Cormorant_Garamond-Medium';
+  src: url('../resources/fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf');
+}
+@font-face {
+  font-family: 'Cormorant_Garamond-SemiBold';
+  src: url('../resources/fonts/Cormorant_Garamond/CormorantGaramond-SemiBold.ttf');
+}
+/* Cormorant_Garamond */
+@font-face {
+  font-family: 'Sebastian-Boby';
+  src: url('../resources/fonts/Sebastian_Bobby/Sebastian_Bobby.otf');
+}
+@font-face {
+  font-family: 'Sebastian-Boby-Alt';
+  src: url('../resources/fonts/Sebastian_Bobby/Sebastian_Bobby_Alt.otf');
+}
+@font-face {
+  font-family: 'Sebastian-Boby-Slanted';
+  src: url('../resources/fonts/Sebastian_Bobby/Sebastian_Bobby_Slanted.otf');
+}
+
+
+/* Poppins */
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../resources/fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('../resources/fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+/* Lato */
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../resources/fonts/Lato/Lato-Regular.ttf');
+}
+
+/* IBMPlexSans */
+@font-face {
+  font-family: 'IBMPlexSans-Regular';
+  src: url('../resources/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf');
+}

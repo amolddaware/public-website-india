@@ -1,0 +1,198 @@
+[
+	{
+		"country": "India",
+		"countryId": 123,
+		"hotels": [
+			{
+				"country": "India",
+				"countryId": 123,
+				"city": "Maharashtra",
+				"stateId": "mh",
+				"rateCode": "0956",
+				"memberRateCode": 4564,
+				"latitude": 20.5937,
+				"longitude": 78.9629,
+				"name": "Fraser Suites CBD, Maharashtra India",
+				"hotelID": "52624",
+				"detailsLink": "...",
+				"ratesLink": "...",
+				"price": 35,
+				"membersPrice": 15,
+				"images": [
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png"
+				],
+				"newProperty": true,
+				"awardImage": ""
+			},
+			{
+				"country": "India",
+				"countryId": 123,
+				"city": "Maharashtra",
+				"stateId": "mh",
+				"rateCode": "0956",
+				"memberRateCode": 4564,
+				"latitude": 20.6937,
+				"longitude": 78.5629,
+				"name": "Fraser Suites Akasaka, Maharashtra India",
+				"hotelID": "52624",
+				"detailsLink": "...",
+				"ratesLink": "...",
+				"price": 35,
+				"membersPrice": 15,
+				"images": [
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png"
+				],
+				"newProperty": true,
+				"awardImage": "../../resources/images/column-control/Group_3833.svg"
+			},
+			{
+				"country": "India",
+				"countryId": 123,
+				"city": "Goa",
+				"stateId": "goa",
+				"rateCode": "0956",
+				"memberRateCode": 4564,
+				"latitude": 20.8937,
+				"longitude": 78.2629,
+				"name": "Fraser Suites Doha, Goa India",
+				"hotelID": "52624",
+				"detailsLink": "...",
+				"ratesLink": "...",
+				"price": 35,
+				"membersPrice": 15,
+				"images": [
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png"
+				],
+				"newProperty": false,
+				"awardImage": "../../resources/images/column-control/Group_3833.svg"
+			},
+			{
+				"country": "India",
+				"countryId": 123,
+				"city": "Goa",
+				"stateId": "goa",
+				"rateCode": "0956",
+				"memberRateCode": 4564,
+				"latitude": 20.5937,
+				"longitude": 78.9629,
+				"name": "Fraser Suites CBD, Goa India",
+				"hotelID": "52624",
+				"detailsLink": "...",
+				"ratesLink": "...",
+				"price": 35,
+				"membersPrice": 15,
+				"images": [
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png"
+				],
+				"newProperty": true,
+				"awardImage": ""
+			}
+		]
+	},
+	{
+		"country": "Singapore",
+		"countryId": 321,
+		"hotels": [
+			{
+				"country": "Singapore",
+				"countryId": 321,
+				"city": "Yishun",
+				"stateId": "yi",
+				"rateCode": "0956",
+				"memberRateCode": 4564,
+				"latitude": 20.5937,
+				"longitude": 78.9629,
+				"name": "Fraser Suites CBD, Yishun Singapore",
+				"hotelID": "52624",
+				"detailsLink": "...",
+				"ratesLink": "...",
+				"price": 35,
+				"membersPrice": 15,
+				"images": [
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png"
+				],
+				"newProperty": true,
+				"awardImage": ""
+			},
+			{
+				"country": "Singapore",
+				"city": "Yishun",
+				"countryId": 321,
+				"stateId": "yi",
+				"rateCode": "0956",
+				"memberRateCode": 4564,
+				"latitude": 20.6937,
+				"longitude": 78.5629,
+				"name": "Fraser Suites Akasaka, Yishun Singapore",
+				"hotelID": "52624",
+				"detailsLink": "...",
+				"ratesLink": "...",
+				"price": 35,
+				"membersPrice": 15,
+				"images": [
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png"
+				],
+				"newProperty": true,
+				"awardImage": "../../resources/images/column-control/Group_3833.svg"
+			},
+			{
+				"country": "Singapore",
+				"city": "Tampines",
+				"countryId": 321,
+				"stateId": "ta",
+				"rateCode": "0956",
+				"memberRateCode": 4564,
+				"latitude": 20.8937,
+				"longitude": 78.2629,
+				"name": "Fraser Suites Doha, Tampines Singapore",
+				"hotelID": "52624",
+				"detailsLink": "...",
+				"ratesLink": "...",
+				"price": 35,
+				"membersPrice": 15,
+				"images": [
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png"
+				],
+				"newProperty": false,
+				"awardImage": "../../resources/images/column-control/Group_3833.svg"
+			},
+			{
+				"country": "Singapore",
+				"city": "Tampines",
+				"countryId": 321,
+				"stateId": "ta",
+				"rateCode": "0956",
+				"memberRateCode": 4564,
+				"latitude": 20.5937,
+				"longitude": 78.9629,
+				"name": "Fraser Suites CBD, Tampines Singapore",
+				"hotelID": "52624",
+				"detailsLink": "...",
+				"ratesLink": "...",
+				"price": 35,
+				"membersPrice": 15,
+				"images": [
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png",
+					"../../resources/images/fraser-world/rectangle-1955@3x.png"
+				],
+				"newProperty": true,
+				"awardImage": ""
+			}
+		]
+	}
+]

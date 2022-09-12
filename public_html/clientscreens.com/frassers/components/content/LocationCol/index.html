@@ -1,0 +1,44 @@
+<section
+	class="column-control column-width__fifty pb-0 location-col-wrapper"
+	data-country-url="../../../resources/utils/country.json"
+	data-hotels-url="../../../resources/utils/data.json"
+>
+	<div class="grid-container">
+		<div class="column-control__text_title mb-30">
+			<h4>A world of hotels and apartments to pick from.</h4>
+			<h4>Discover <span class="sebastian-bobby1">yours</span> now</h4>
+		</div>
+		<div class="column-control__dropdown">
+			<div class="column-control__dropdown-top">
+				<div class="column-control__dropdown__left">
+					<select id="country" name="country">
+						<option disabled value="default" selected="selected">
+							Select
+						</option>
+					</select>
+					<select id="state" name="state">
+						<option disabled value="default" selected="selected">
+							Select
+						</option>
+					</select>
+				</div>
+				<div class="column-control__dropdown__right">
+					<button class="btn" id="openFilterpanel">
+						<i class="fa fa-filter" aria-hidden="true"></i>
+					</button>
+					<button class="btn show-list-view">
+						<i class="fa fa-th-list" aria-hidden="true"></i>
+					</button>
+					<button class="btn show-grid-view active">
+						<i class="fa fa-th" aria-hidden="true"></i>
+					</button>
+					<button class="btn show-map-view">
+						<i class="fa fa-map-marker" aria-hidden="true"></i>
+					</button>
+				</div>
+			</div>
+			<div class="filtered-items"></div>
+		</div>
+		<div class="column-control__image-grid location-grid-view"></div>
+	</div>
+</section>

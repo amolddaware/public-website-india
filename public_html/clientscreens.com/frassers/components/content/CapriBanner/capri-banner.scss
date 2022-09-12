@@ -1,0 +1,151 @@
+.text-image-slider-container{
+  width:100%;
+  position: relative;
+  display: flex;
+    
+   height:100vh;
+  .text-image-left-col{
+    width:50%;
+    background: #350156;
+    background: -webkit-linear-gradient(top, #350156, #611A8E);
+    background: -moz-linear-gradient(top, #350156, #611A8E);
+    background: linear-gradient(to bottom, #350156, #611A8E);
+    flex:1;
+   height:100%;
+   .text-image-slider-content{
+     width:100%;
+     height:100%;
+     color: #fff;
+     
+     justify-content: center;
+     align-items: center;
+   }
+   
+  }
+  .text-image-right-col{
+    width:50%;
+    flex:1;
+    
+    .image-container{
+      position:relative;
+      width:100%;
+      height:100%;
+      overflow: hidden;
+      img{
+        object-fit: cover;
+       
+        height:100%;
+       }
+    }
+  }
+}
+.text-container{
+  position: relative;
+  width:100%;
+      height:100%;
+      overflow: hidden;
+}
+
+
+ 
+.slideshow-container {
+  
+  position: relative;
+  width: 100%;
+    height: 100%;
+    .text-image-slider, .imgSlides {
+    display: none;
+    width:100%;
+    height:100%;
+    img{
+      width:100%;
+      height:100%;
+      object-fit: cover;
+    }
+    .text-slide{
+      width:100%;
+      height:100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      
+    }
+    }
+
+}
+.dot {
+  display: none;
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border:2px solid #fff;
+}
+
+.active, .dot:hover {
+  background-color: transparent;
+}
+.line-1{
+  position: relative;
+   
+  width: 24em;
+  margin: 0 auto;
+  font-size: 50px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+.text-image-paginator{
+  text-align: center;
+}
+/* Animation */
+.anim-typewriter{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+ 
+
+ @media screen and (max-width:768px) {
+
+  .text-slide-txt{
+    font-size: 20px;
+    word-break: break-all;
+  }
+  .dot {
+    display: inline-block;
+    margin-top:-10px;
+  }
+  .text-image-right-col{
+    display: none;
+  }
+  .text-image-left-col{
+    width:100%;
+    position: relative;
+    .line-1{
+      font-size: 20px;
+    }
+    .text-image-paginator{
+      position: absolute;
+      bottom: 25px;
+      left:0;
+      right:0;
+    }
+  }
+ }
+
+
+ 

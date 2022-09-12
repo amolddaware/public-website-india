@@ -1,0 +1,227 @@
+.social-share-list {
+  @extend .d-flex;
+
+  li {
+    a {
+      padding: 0 8px;
+      font-size: 1.25rem;
+      @include transition();
+      @extend .color-darken-black;
+      @extend .d-block;
+      @extend .lh-1;
+
+      &:hover,
+      &:focus {
+        transform: scale(1.2);
+      }
+
+      @include breakpoint(ipad-max) {
+        padding: 0 12px;
+      }
+    }
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 1px solid transparent;
+  margin: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Cormorant_Garamond-Regular';
+  font-size: 1rem;
+  line-height: 23px;
+  letter-spacing: 0px;
+
+  &:disabled {
+    background-color: #DBDBDB;
+    color: #5F5F5F;
+    border-color: #DBDBDB;
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: #DBDBDB;
+      color: #5F5F5F;
+      border-color: #DBDBDB;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.btn-gold {
+  @extend .bg-background-gold;
+  border-color: #866D4B;
+  margin-left: 10px;
+  @extend .color-white;
+  &:hover {
+    @extend .bg-color-white;
+    border-color: #866d4b;
+    @extend .color-gold;
+  }
+
+  &:active {
+    background-color: transparent;
+    border-width: 2px;
+    @extend .color-gold;
+  }
+}
+
+.btn-optional {
+  border-color: #222222;
+  @extend .color-darken-black;
+  opacity: 0.8;
+
+  &:hover {
+    background-color: transparent;
+    border-color: #222222;
+    @extend .color-darken-black;
+  }
+
+  &:active {
+    background-color: transparent;
+    @extend .color-darken-black;
+  }
+}
+
+
+.btn-inverse {
+  @extend .color-white;
+  border-color: #FFFFFF;
+  opacity: 1;
+
+  &:hover {
+    font-family: 'Cormorant_Garamond-Bold' !important;
+  }
+
+  &:acitve {
+    border-width: 2px;
+    opacity: 1;
+  }
+}
+
+.btn-secondary {
+	@extend .color-gold;
+	border-color: #866D4B;
+  background-color: transparent;
+	opacity: 1;
+	&:hover {
+	  font-family: 'Cormorant_Garamond-Bold' !important;
+	}
+	&:acitve {
+	  border-width: 2px;
+	  opacity: 1;
+	}
+}
+
+// Variables
+$checkbox-size: 20px;
+$checkbox-border: #866D4B;
+
+.checkbox {
+  @extend .p-absolute;
+  opacity: 0;
+
+  // Text
+  & + label {
+    display: inline-block;
+    @extend .p-relative;
+    cursor: pointer;
+    line-height: $checkbox-size;
+    padding-left: $checkbox-size + 10;
+    font-size: $checkbox-size - 8;
+    font-family: "Roboto-Regular";
+    color: $checkbox-border; // Label colour
+    text-transform: uppercase;
+    transition: 200ms ease-in-out all;
+
+    // Checkbox
+    &:before {
+      @extend .p-absolute;
+      @extend .d-block;
+      left: 0;
+      top: 0;
+      content: "";
+      background: transparent;
+      width: $checkbox-size - 5;
+      height: $checkbox-size - 5;
+      border: 1px solid $checkbox-border;
+      transition: 200ms ease-in-out all;
+    }
+
+    // Tick
+    &:after {
+      @extend .p-absolute;
+      @extend .d-block;
+      top: 1px;
+      left: 5px;
+      content: "";
+      width: $checkbox-size - 15;
+      height: $checkbox-size - 9;
+      border-right: 1px solid transparent;
+      border-bottom: 1px solid transparent;
+      transform: rotate(45deg);
+      transition: 200ms ease-in-out all;
+    }
+  }
+
+  // Hover
+  & + label:hover {
+    color: #222222;
+  }
+
+  // Focus
+  & + label:focus {
+    outline: none;
+  }
+
+  // Checked
+  &:checked {
+    & + label {
+      color: $checkbox-border;
+
+      &:before {
+        box-shadow: none;
+      }
+
+      &:after {
+        border-color: $checkbox-border;
+      }
+    }
+  }
+
+  // Disabled
+  &:disabled {
+    & + label {
+      &:before {
+        background: #f2f2f2; // Disabled colour
+        box-shadow: none;
+      }
+
+      &:after {
+        border-color: transparent;
+      }
+    }
+  }
+
+  // Disabled Checked
+  &:checked:disabled {
+    & + label {
+      &:before {
+        background: #f2f2f2;
+        box-shadow: none;
+      }
+
+      &:after {
+        border-color: #cecece;
+      }
+    }
+  }
+}
+
+// Additional demo styling
+.form-checkbox {
+  @extend .p-relative;
+  @extend .d-block;
+}

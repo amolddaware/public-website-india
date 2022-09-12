@@ -1,0 +1,1026 @@
+{
+    "countries": [
+        {
+            "name": "Australia",
+            "cities": [
+                "Brisbane",
+                "Melbourne",
+                "Sydney"
+            ]
+        },
+        {
+            "name": "Indonesia",
+            "cities": [
+                "Jakarta",
+                "Bintan"
+            ]
+        },
+        {
+            "name": "Hong Kong",
+            "cities": [
+                "Hong Kong"
+            ]
+        }
+    ],
+    "properties": [
+        {
+            "country": "Australia",
+            "city": "Brisbane",
+            "propertyID": 1,
+            "propertyName": "Capri by Fraser",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 2,
+            "city": "Sydney",
+            "country": "Australia",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 3,
+            "city": "Melbourne",
+            "country": "Australia",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "rainshower"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "extended-stay",
+                "family"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 4,
+            "city": "Jakarta",
+            "country": "Indonesia",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 5,
+            "city": "Delhi",
+            "country": "India",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 2,
+            "city": "Sydney",
+            "country": "Australia",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 3,
+            "city": "Melbourne",
+            "country": "Australia",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 4,
+            "city": "Jakarta",
+            "country": "Indonesia",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 5,
+            "city": "Delhi",
+            "country": "India",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 2,
+            "city": "Sydney",
+            "country": "Australia",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 3,
+            "city": "Melbourne",
+            "country": "Australia",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 4,
+            "city": "Jakarta",
+            "country": "Indonesia",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 5,
+            "city": "Delhi",
+            "country": "India",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 2,
+            "city": "Hong Kong",
+            "country": "Hong Kong",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 3,
+            "city": "Melbourne",
+            "country": "Australia",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        },
+        {
+            "propertyName": "Capri by Fraser",
+            "propertyID": 3,
+            "city": "Melbourne",
+            "country": "Australia",
+            "priceFrom": "$68",
+            "membersPrice": "$60",
+            "url": "#",
+            "images": [
+                "static/media/src/main/webpack/resources/images/PropertyGrid/1.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/2.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/3.png",
+                "static/media/src/main/webpack/resources/images/PropertyGrid/4.png"
+            ],
+            "roomType": [
+                "studio",
+                "1-bedroom",
+                "2-bedroom",
+                "3-bedroom",
+                "penthouse"
+            ],
+            "amenities": [
+                "aircon",
+                "balcony",
+                "bathtub",
+                "tea",
+                "wifi",
+                "dishwashers",
+                "handicap-accessible",
+                "fitness-equipment",
+                "kitchen",
+                "rainshower",
+                "standingshower",
+                "workspace"
+            ],
+            "features": [
+                "reception",
+                "all-day-dining",
+                "bar",
+                "business-center",
+                "club-lounge",
+                "fully-equipped-gym",
+                "golf-simulator",
+                "in-room-didning",
+                "kids-pool",
+                "kids-playzone",
+                "launderette",
+                "meeting-rooms",
+                "pet-friendly",
+                "residents-lounge",
+                "secured-car-park",
+                "shuttle-service",
+                "swimming-pool",
+                "steam-sauna",
+                "retreat-msg",
+                "yoga-room"
+            ],
+            "experience": [
+                "business",
+                "city-center",
+                "extended-stay",
+                "family",
+                "heritage"
+            ]
+        }
+    ]
+}

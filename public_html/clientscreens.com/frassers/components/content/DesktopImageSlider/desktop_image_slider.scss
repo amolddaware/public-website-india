@@ -1,0 +1,115 @@
+.banner-slider-container {
+  overflow-x: hidden;
+  .banner-slider-container__header{
+    @extend .d-flex; 
+    @extend .justify-content-center;
+    @extend .align-items-center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    h2{
+      font-family: 'Cormorant_Garamond-Medium';
+      text-align: center;
+      font-size: 36px;
+      color: #222222;
+    }
+    p {
+      font-family: 'Cormorant_Garamond-Regular';
+      font-size: 16px;
+      text-align: center;
+      margin: 0 25%;
+      color: #515151;
+      line-height: 1.4;
+    }
+  }
+
+  .banner-swiper-container {
+    height: 580px;
+    padding: 10px 0 10px 0;
+    .swiper-wrapper {
+      @extend .align-items-center;
+      .swiper-slide {
+        max-width: 600px;
+        height: 440px;
+        img {
+          max-width: 600px;
+          margin-bottom: -5px;
+          opacity: 0.5;
+        } 
+        .banner-slider-info{
+          background-color: #dbdbdb;
+          padding: 10px 20px;
+          display: none;
+        }
+        .banner-slider-info p {
+          text-align: center;
+        }       
+        .banner-slider-info p:first-child {
+          margin-bottom: 10px;
+          font-size: 24px;
+          color: #222222;
+          font-family: 'Cormorant_Garamond-Medium';
+        }  
+        .banner-slider-info p:last-child {
+          padding: 0 40px;
+          font-size: 14px;
+          font-family: 'Roboto-Regular';
+          color: #5F5F5F;
+        }   
+      }
+      .swiper-slide-active {
+        transform: scale(1.3);
+        transition: .4s;
+        > img{
+          opacity: 1;
+        }
+        .banner-slider-info {
+          display: block;
+        }
+      }
+    }
+
+    .swiper-pagination {
+
+      .swiper-pagination-bullet {
+        width: 100px;
+        border-radius: 0;
+      }
+
+    }
+      
+  }
+}
+
+.swiper-progress-bar{
+	width: 400px;
+  height: 3px;
+  @extend .p-relative;
+	margin: 20px auto;
+	background: #eeeeee;
+	.progress{
+		height: inherit;
+		left: 0;
+		top: 0;
+    @extend .p-absolute;
+		background: #866D4B;
+		z-index: 1;
+	}
+	.progress-sections{
+		left: 0;
+		top: 0;
+    @extend .p-absolute;
+		height: inherit;
+		width: inherit;
+		z-index: 2;
+		display: flex;
+		flex-direction: row;
+		span{
+			flex: 1;
+			height: inherit;
+			border-right: 15px solid #fff;
+			&:last-child{
+				border-right-width: 0;
+			}
+		}
+	}
+}

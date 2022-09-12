@@ -1,0 +1,63 @@
+.services {
+  padding: 50px 20px;
+  font-family: "Cormorant_Garamond-Medium";
+
+  &-header-container {
+    .services-header {
+      margin-bottom: 10px;
+      @extend .d-flex;
+      @extend .justify-content-center;
+      @extend .align-items-center;
+      @extend .p-relative;
+      h2 {
+        font-size: 1.875rem;
+        font-weight: 500;
+        font-family: "Cormorant_Garamond-Medium";
+        color: #222222;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &__carousel {
+    max-width: 768px;
+    width: 100%;
+    border-top: 1px solid #c1b8b0;
+
+    .swiper-slide {
+      width: 25%; // This is a fallback when js is not loaded.
+    }
+  }
+
+  &__item {
+    padding: 20px 0;
+    text-align: center;
+    cursor: pointer;
+
+    &.highlighted {
+      border-top: 2px solid #866d4b;
+    }
+  }
+
+  &__image {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  &__desc {
+    display: none;
+    font-family: "Roboto-Regular";
+    font-size: 14px;
+
+    .highlighted & {
+      display: block;
+    }
+  }
+}

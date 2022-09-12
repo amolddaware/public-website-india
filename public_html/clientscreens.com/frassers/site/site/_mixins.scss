@@ -1,0 +1,104 @@
+/* placeholder */
+@mixin input-placeholder {
+  &.placeholder {
+    @content;
+  }
+
+  &::-moz-placeholder {
+    @content;
+  }
+
+  &::-webkit-input-placeholder {
+    @content;
+  }
+
+  &:-moz-placeholder {
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+$breakpoints: (
+  'custom-small-mobile-max': (max-width: 359px),
+  'portrait-mobile-max': (max-width: 575px),
+  'mobile-min': (min-width: 576px),
+  'mobile-max': (max-width: 767px),
+  'ipad-min': (min-width: 768px),
+  'ipad-max': (max-width: 991px),
+  'medium-desktop-min': (min-width: 992px),
+  'medium-desktop-max': (max-width: 1199px),
+  'large-desktop-min': (min-width: 1200px),
+  'medium-large-desktop-min': (min-width: 1366px),
+  'medium-large-desktop-max': (max-width: 1400px),
+);
+
+@mixin breakpoint($name) {
+  @if map-has-key($breakpoints, $name) {
+    @media screen and #{inspect(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+  @else {
+    @warn "Couldn't find a breakpoint named `#{$name}`.";
+  }
+}
+
+// Transition
+@mixin transition($what: all, $time: 0.5s, $how: ease-in-out) {
+  transition: $what $time $how;
+}
+
+// rgba Border
+@mixin border-rgba ($color, $opacity) {
+  border: 1px solid rgba(red($color), green($color), blue($color), $opacity);
+}
+
+// Top rgba Border
+@mixin border-top-rgba ($color, $opacity) {
+  border-top: 1px solid rgba(red($color), green($color), blue($color), $opacity);
+}
+
+// Bottom rgba Border
+@mixin border-bottom-rgba ($color, $opacity) {
+  border-bottom: 1px solid rgba(red($color), green($color), blue($color), $opacity);
+}
+
+// Left rgba Border
+@mixin border-left-rgba ($color, $opacity) {
+  border-left: 1px solid rgba(red($color), green($color), blue($color), $opacity);
+}
+
+// Right rgba Border
+@mixin border-right-rgba ($color, $opacity) {
+  border-right: 1px solid rgba(red($color), green($color), blue($color), $opacity);
+}
+
+// Background Color rgba
+@mixin background-color-rgba($color, $opacity) {
+  background-color: rgba($color, $opacity);
+}
+
+// Color rgba
+@mixin color-rgba($color, $opacity) {
+  color: rgba($color, $opacity);
+}
+
+// Truncate
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Line Truncate
+@mixin line-truncate($number) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $number;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}

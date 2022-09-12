@@ -1,0 +1,121 @@
+<div class="sign-bg">
+  <section class="signup">
+    <h2>SIGN UP TO A WORLD OF BENEFITS</h2>
+    <div class="signup__container">
+      <ol class="progress-tracker">
+        <li class="step active"><span class="step-name">Sign Up</span></li>
+        <li class="step"><span class="step-name">Confirmation</span></li>
+      </ol>
+      <div class="signup_info">     
+      <div class="signup__head">
+        <h3>PERSONAL INFORMATION</h3>
+        <span><span class="r-star">*</span>  Required</span>
+      </div>
+      <div class="signup__form">
+        <form action="/" name="signupForm" id="signup-form">
+          <div class="form-group">
+            <label for="salutation" class="required">Salutation</label>
+            <select class="form-control" id="salutation">
+              <option value="">Please select</option>
+              <option value="Mr.">Mr.</option>
+              <option value="Mrs.">Mrs.</option>
+              <option value="Ms.">Ms.</option>
+              <option value="Miss">Miss</option>
+              <option value="Dr.">Dr.</option>
+              <option value="Prof.">Prof</option>            
+            </select>
+            <span class="salutation-error error">Please select salutation</span>
+          </div>
+          <div class="form-group d-inline">
+            <label for="fname" class="required">First Name</label>
+            <input type="text" id="firstname" class="form-control" placeholder="" autocomplete="off" name="firstname">
+            <span class="firstname-empty-error error">First name is a required field</span>
+            <span class="firstname-validation-error error">Please enter valid name</span>
+          </div>
+          <div class="form-group d-inline">
+            <label for="lname" class="required">Last Name</label>
+            <input type="text" id="lastname" class="form-control" placeholder="" autocomplete="off">
+            <span class="lastname-empty-error error">Last name is a required field</span>
+            <span class="lastname-validation-error error">Please enter valid Last name</span>
+          </div>
+          <div class="form-group d-inline">            
+            <label for="dob" class="required">Date of Birth</label>
+            <input type="date" id="dob" class="form-control" placeholder="">
+            <span class="dob-error error">Please enter date of birth</span>
+          </div>
+          <div class="form-group d-inline">
+            <label for="residency" class="required">Country of Residency</label>
+            <select class="form-control" id="residency">
+              <option value="">Please select</option>
+              <option value="Sinagpore">Sinagpore</option>
+              <option value="India">India</option>
+            </select>
+            <span class="residency-error error">Please select Residency.</span>
+          </div>
+          <div class="form-group">
+            <label for="source">Sign Up Source</label>
+            <select class="form-control" id="source">
+              <option value="">Please select</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
+            <span class="source-error error">Please select Source.</span>
+          </div>
+          <div class="signup__button">
+            <p>Sign up with</p>
+            <a href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i>
+              FACEBOOK</a>
+            <a href="javascript:void(0);"><i class="fa fa-google" aria-hidden="true"></i>
+              GOOGLE</a>
+          </div>
+          <div class="signup__email">
+            <p>Or sign up using your email</p>
+            <h4>LOGIN INFORMATION</h4>
+            <div class="signup__form">
+                <div class="form-group">
+                  <label for="email" class="required">Email</label>
+                  <input type="email" id="email" class="form-control" placeholder="" autocomplete="off">
+                  <span class="email-empty-error error">Please enter email address.</span>
+                  <span class="email-validation-error error">Please enter a valid email address</span>
+                </div>
+                
+                <div class="form-group d-inline password">
+                  <label for="pass" class="required">Password</label>
+                  <input type="password" id="passwordd" class="form-control" placeholder=""  autocomplete="off">
+                  <span id ="viewicon" class="fh-icon-invisible"></span>
+                  <span class="password-empty-error error">Please enter Password address.</span>
+                  <span class="password-validation-error error">Password must contain eight or more characters, one uppercase letter, one lowercase letter, and one digit.</span>
+                </div>
+
+                <div class="form-group d-inline password">
+                  <label for="confirmpass" class="required">Confirm Password</label>
+                  <input type="password" id="confirmpass" class="form-control" placeholder="">
+                  <span id ="viewiconcon"class="fh-icon-invisible"></span>
+                  <span class="confirmpass-empty-error error">Please enter Confirm Password.</span>
+                  <span class="confirmpass-validation-error error">Your Password and confirm password should be same.</span>
+                </div>
+            </div>
+           <div class="signup__lable">
+            <input type="text" id="refcode" class="form-control referal-code" placeholder="ENTER REFERRAL CODE">
+            <div class="form-group">
+              <input type="checkbox" id="terms">
+              <label for="terms">I agree to the Fraser World Programme Terms and Conditions and I consent to the collection, use, sharing and transfer of information as set out in the Frasers Hospitality Privacy Statement. </label>
+              <span class="terms-checked-error error">Please select terms and condition.</span>
+            </div>  
+            <div class="form-group">
+              <input type="checkbox" id="css">
+              <label for="css">I would like to join Frasers Hospitality’s mailing list and receive Fraser World email marketing, monthly statement, birthday e-vouchers, membership communications, and information communicated via post, email, SMS, phone or such other means provided. Please note that your consent is voluntary and you are under no obligation to opt in. Even if you choose to consent now, you are welcome to come back and opt out at any time under your subscription preference.</label>
+            </div>
+           </div>
+           <input id="sign-up-btn" type="submit" class="btn-primary" value="SIGN UP">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="confirmation-view" style="display:none;">
+      Confirmation Text
+      <span class="member-profile-id"></span>
+    </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,630 @@
+<!-- <button id="openFilterpanel">Filter</button> -->
+<!-- <div class="filtered-items"></div> -->
+
+<div id="filter-panel" class="filter-panel-container">
+	<div class="overlay-filter"></div>
+	<div class="filter-panel-wraper">
+		<div class="filter-panel_header">
+			<h4>Filter By</h4>
+			<p class="close-panel">&times;</p>
+		</div>
+		<div class="filter-panel_search">
+			<i class="fa fa-search"></i
+			><input
+				type="text"
+				id="filter-searchbar"
+				placeholder="Search Filters"
+			/>
+		</div>
+		<div class="filter-item-wrapper">
+			<div class="filter-items">
+				<p class="filter-items_category">Experience</p>
+				<div class="filter-items_name">
+					<ul>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="business"
+									name="business"
+									value="Business"
+								/>
+								<label for="business">Business</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="city-center"
+									name="city-center"
+									value="City Center"
+								/>
+								<label for="city-center">City Center</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="extended-stay"
+									name="extended-stay"
+									value="Extended Stay"
+								/>
+								<label for="extended-stay">Extended Stay</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="family"
+									name="family"
+									value="Family and Kinds"
+								/>
+								<label for="family">Family and Kinds</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="heritage"
+									name="heritage"
+									value="Heritage and Historical"
+								/>
+								<label for="heritage"
+									>Heritage and Historical</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="pet-friendly"
+									name="pet-friendly"
+									value="Pet Friendly"
+								/>
+								<label for="pet-friendly">Pet Friendly</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="filter-items">
+				<p class="filter-items_category">Room Type</p>
+				<div class="filter-items_name">
+					<ul>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="studio"
+									name="studio"
+									value="Studio"
+								/>
+								<label for="studio">Studio</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="1bedroom"
+									name="1bedroom"
+									value="1 Bedroom"
+								/>
+								<label for="1bedroom">1 Bedroom</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="2bedroom"
+									name="2bedroom"
+									value="2 Bedroom"
+								/>
+								<label for="2bedroom">2 Bedroom</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="3bedroom"
+									name="3bedroom"
+									value="3 Bedroom"
+								/>
+								<label for="3bedroom">3 Bedroom</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="penthouse"
+									name="penthouse"
+									value="Penthouse"
+								/>
+								<label for="penthouse">Penthouse</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="filter-items">
+				<p class="filter-items_category">Room Amenities</p>
+				<div class="filter-items_name">
+					<ul>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="ac"
+									name="ac"
+									value="Air Conditioning"
+								/>
+								<label for="ac">Air Conditioning</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="balcony"
+									name="balcony"
+									value="Balcony"
+								/>
+								<label for="balcony">Balcony</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="bathtub"
+									name="bathtub"
+									value="Bathtub"
+								/>
+								<label for="bathtub">Bathtub</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="tea"
+									name="tea"
+									value="Coffee/ tea Facilities"
+								/>
+								<label for="tea">Coffee/ tea Facilities</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="wifi"
+									name="wifi"
+									value="Complimentary Wifi"
+								/>
+								<label for="wifi">Complimentary Wifi</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="dishwashers"
+									name="dishwashers"
+									value="Dishwashers"
+								/>
+								<label for="dishwashers">Dishwashers</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="handicap-accessible"
+									name="handicap-accessible"
+									value="Handicap accessiblee"
+								/>
+								<label for="handicap-accessible"
+									>Handicap accessible</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="fitness-equipment"
+									name="fitness-equipment"
+									value="In-room fitness equipment"
+								/>
+								<label for="fitness-equipment"
+									>In-room fitness equipment</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="kitchen"
+									name="kitchen"
+									value="Kitchen / Kitchenette"
+								/>
+								<label for="kitchen"
+									>Kitchen / Kitchenette</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="rainshower"
+									name="rainshower"
+									value="Rainshower"
+								/>
+								<label for="rainshower">Rainshower</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="standing-shower"
+									name="standing-shower"
+									value="Standing Shower"
+								/>
+								<label for="standing-shower"
+									>Standing Shower</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="workspace"
+									name="workspace"
+									value="Study / Workspace"
+								/>
+								<label for="workspace">Study / Workspace</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									class="checkbox"
+									id="washer"
+									name="washer"
+									value="Washer / Dryer"
+								/>
+								<label for="washer">Washer / Dryer</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="filter-items">
+				<p class="filter-items_category">Property Features</p>
+				<div class="filter-items_name">
+					<ul>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="reception"
+									name="reception"
+									value="24/7 Reception & Concierge"
+								/>
+								<label for="reception"
+									>24/7 Reception & Concierge</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="all-day-dining"
+									name="all-day-dining"
+									value="All-Day dining Restaurant"
+								/>
+								<label for="all-day-dining"
+									>All-Day dining Restaurant</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="bar"
+									name="bar"
+									value="Bar"
+								/>
+								<label for="bar">Bar</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="business-center"
+									name="business-center"
+									value="Business Center"
+								/>
+								<label for="business-center"
+									>Business Center</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="club-lounge"
+									name="club-lounge"
+									value="Club Lounge"
+								/>
+								<label for="club-lounge">Club Lounge</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="fully-equipped-gym"
+									name="fully-equipped-gym"
+									value="Fully equipped gym"
+								/>
+								<label for="fully-equipped-gym"
+									>Fully equipped gym</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="golf-simulator"
+									name="golf-simulator"
+									value="Golf Simulator"
+								/>
+								<label for="golf-simulator"
+									>Golf Simulator</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="in-room-didning"
+									name="in-room-didning"
+									value="In-room didning"
+								/>
+								<label for="in-room-didning"
+									>In-room didning</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="kids-pool"
+									name="kids-pool"
+									value="Kids Pool"
+								/>
+								<label for="kids-pool">Kids Pool</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="kids-playzone"
+									name="kids-playzone"
+									value="Kids playzone"
+								/>
+								<label for="kids-playzone">Kids playzone</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="launderette"
+									name="launderette"
+									value="Launderette"
+								/>
+								<label for="launderette">Launderette</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="meeting-rooms"
+									name="meeting-rooms"
+									value="Meeting rooms"
+								/>
+								<label for="meeting-rooms">Meeting rooms</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="pet-friendly"
+									name="pet-friendly"
+									value="Pet-friendly"
+								/>
+								<label for="pet-friendly">Pet-friendly</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="residents-lounge"
+									name="residents-lounge"
+									value="Residents Lounge"
+								/>
+								<label for="residents-lounge"
+									>Residents Lounge</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="secured-car-park"
+									name="secured-car-park"
+									value="Secured Car Park"
+								/>
+								<label for="secured-car-park"
+									>Secured Car Park</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="shuttle-service"
+									name="shuttle-service"
+									value="Shuttle servic"
+								/>
+								<label for="shuttle-service"
+									>Shuttle service</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="swimming-pool"
+									name="swimming-pool"
+									value="Swimming Pool"
+								/>
+								<label for="swimming-pool">Swimming Pool</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="steam-sauna"
+									name="steam-sauna"
+									value="Steam & Sauna"
+								/>
+								<label for="steam-sauna">Steam & Sauna</label>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="retreat-msg"
+									name="retreat-msg"
+									value="The Retreat massage facility"
+								/>
+								<label for="retreat-msg"
+									>The Retreat massage facility</label
+								>
+							</div>
+						</li>
+						<li>
+							<div class="filter-checkbox">
+								<input
+									type="checkbox"
+									class="checkbox-square"
+									id="yoga-room"
+									name="yoga-room"
+									value="Yoga Room"
+								/>
+								<label for="yoga-room">Yoga Room</label>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="filter-buttons">
+			<a href="#" class="apply-filters"><span>Apply filters</span></a>
+			<a href="#" class="clear-filters">Clear filters</a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,33 @@
+.select-dropdown {
+  @extend .d-flex;
+  @extend .p-relative;
+  @extend .color-white;
+
+  &::after {
+    font-family: $icomoon-font-family;
+    content: $fh-icon-down-arrow;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    @extend .p-absolute;
+  }
+
+  select {
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    padding: 0 15px 0 5px;
+    width: 100%;
+    @extend .color-white;
+
+    &:active,
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    option {
+      background-color: $color-primary;
+    }
+  }
+}

@@ -1,0 +1,657 @@
+[{
+   "brand":"Fraser",
+   "name":"Fraser Suites CBD, Beijing China",
+   "hotelID":"52624",
+   "status":"1",
+   "region":"North Asia",
+   "country":"China",
+   "city":"Beijing",
+   "property":"frasersuitescbdbeijing"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Akasaka, Tokyo",
+   "hotelID":"9912",
+   "status":"1",
+   "region":"North Asia",
+   "country":"Japan",
+   "city":"Tokyo",
+   "property":"frasersuitesakasaka"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Doha, Qatar",
+   "hotelID":"52967",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"Qatar",
+   "city":"Doha",
+   "property":"frasersuitesdoha"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Dalian, China",
+   "hotelID":"95074",
+   "status":"1",
+   "region":"North Asia",
+   "country":"China",
+   "city":"Dalian",
+   "property":"frasersuitesdalian"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Dubai, UAE",
+   "hotelID":"52594",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Arab Emirates",
+   "city":"Dubai",
+   "property":"frasersuitesdubai"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Edinburgh, Scotland",
+   "hotelID":"52611",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Kingdom",
+   "city":"Edinburgh",
+   "property":"frasersuitesedinburghscotland"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Geneva, Switzerland",
+   "hotelID":"65676",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"Switzerland",
+   "city":"Geneva",
+   "property":"frasersuitesgeneva"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Glasgow, Scotland",
+   "hotelID":"52610",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Kingdom",
+   "city":"Glasgow",
+   "property":"frasersuitesglasgowscotland"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Hamburg, Germany",
+   "hotelID":"3882",
+   "status":"1",
+   "region":"Berlin/Germany",
+   "country":"Germany",
+   "city":"Hamburg",
+   "property":"frasersuiteshamburg"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Guangzhou, China",
+   "hotelID":"57118",
+   "status":"1",
+   "region":"North Asia",
+   "country":"China",
+   "city":"Guangzhou",
+   "property":"frasersuitesguangzhou"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Harmonie, Paris La Defense, France",
+   "hotelID":"52595",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"France",
+   "city":"Paris",
+   "property":"frasersuiteshamonieparisladefense"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Hanoi, Vietnam",
+   "hotelID":"52627",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Vietnam",
+   "city":"Hanoi",
+   "property":"frasersuiteshanoi"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Kensington, London",
+   "hotelID":"52605",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Kingdom",
+   "city":"London",
+   "property":"frasersuiteskensingtonlondon"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Le Claridge Champs-Elysees, Paris France",
+   "hotelID":"52596",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"France",
+   "city":"Paris",
+   "property":"frasersuitesleclaridgechampselyseesparis"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Perth, Australia",
+   "hotelID":"57380",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Australia",
+   "city":"Perth",
+   "property":"frasersuitesperthaustralia"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Queens Gate, London",
+   "hotelID":"52606",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Kingdom",
+   "city":"London",
+   "property":"frasersuitesqueensgatelondon"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Singapore, Singapore",
+   "hotelID":"52599",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Singapore",
+   "city":"Singapore",
+   "property":"frasersuitesrivervalley"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Seef, Bahrain",
+   "hotelID":"52626",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"Kingdom of Bahrain",
+   "city":"Bahrain",
+   "property":"frasersuitesseefbahrain"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Diplomatic Area, Bahrain",
+   "hotelID":"63986",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"Kingdom of Bahrain",
+   "city":"Bahrain",
+   "property":"frasersuitesdiplomaticareabahrain"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Residence Orchard, Singapore",
+   "hotelID":"5920",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Singapore",
+   "city":"Singapore",
+   "property":"fraserresidenceorchardsingapore"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Shenzhen, China",
+   "hotelID":"80120",
+   "status":"1",
+   "region":"North Asia",
+   "country":"China",
+   "city":"Shenzhen",
+   "property":"frasersuitesshenzhen"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Sydney Australia",
+   "hotelID":"52622",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Australia",
+   "city":"Sydney",
+   "property":"frasersuitessydney"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites, Riyadh",
+   "hotelID":"66068",
+   "status":"1",
+   "country":"Saudi Arabia",
+   "city":"Riyadh",
+   "property":"fsriyadh"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Top Glory Shanghai, China",
+   "hotelID":"52631",
+   "status":"1",
+   "region":"North Asia",
+   "country":"China",
+   "city":"Shanghai",
+   "property":"frasersuitesshanghai"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Sukhumvit, Bangkok Thailand",
+   "hotelID":"52592",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Thailand",
+   "city":"Bangkok",
+   "property":"frasersuitessukhumvitbangkok"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Muscat, Oman",
+   "hotelID":"3252",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"Oman",
+   "city":"Muscat",
+   "property":"fsmuscat"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Place Anthill, Istanbul Turkey",
+   "hotelID":"52966",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"Turkey",
+   "city":"Istanbul",
+   "property":"fraserplaceanthillistanbul"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Place Antasya, Istanbul Turkey",
+   "hotelID":"68048",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"Turkey",
+   "city":"Istanbul",
+   "property":"fraserplaceantasyaistanbul"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Place Canary Wharf, London",
+   "hotelID":"52612",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Kingdom",
+   "city":"London",
+   "property":"fraserplacecanarywharflondon"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Place Central, Seoul Korea",
+   "hotelID":"52620",
+   "status":"1",
+   "region":"North Asia",
+   "country":"Korea",
+   "city":"Seoul",
+   "property":"fraserplacecentralseoul"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Place Melbourne, Australia",
+   "hotelID":"24705",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Australia",
+   "city":"Melbourne",
+   "property":"fraserplacemelbourne"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Place Namdaemun, Seoul Korea",
+   "hotelID":"59366",
+   "status":"1",
+   "region":"North Asia",
+   "country":"Korea",
+   "city":"Seoul",
+   "property":"fraserplacenamdaemunseoul"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Place Setiabudi, Jakarta Indonesia",
+   "hotelID":"67612",
+   "status":"1",
+   "country":"Indonesia",
+   "city":"Jakarta",
+   "property":"fraserplacesetiabudi"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Place Robertson Walk, Singapore",
+   "hotelID":"52600",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Singapore",
+   "city":"Singapore",
+   "property":"fraserplacerobertsonwalksingapore"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Place Tianjin China",
+   "hotelID":"66433",
+   "status":"1",
+   "region":"North Asia",
+   "country":"China",
+   "city":"Tianjin",
+   "property":"fraserplacetianjin"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Place Binhai Tianjin ,China",
+   "hotelID":"79200",
+   "status":"1",
+   "region":"North Asia",
+   "country":"China",
+   "city":"Tianjin",
+   "property":"fraserplacetianjinbinhai"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Residence Bishopsgate, London",
+   "hotelID":"56507",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Kingdom",
+   "city":"London",
+   "property":"fraserresidencebishopsgatelondon"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Place Puteri Harbour, Malaysia",
+   "hotelID":"4117",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Malaysia",
+   "city":"Johor",
+   "property":"fpputeriharbourjohor"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Residence Blackfriars, London",
+   "hotelID":"52607",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Kingdom",
+   "city":"London",
+   "property":"fraserresidenceblackfriarslondon"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Residence Chengdu, China",
+   "hotelID":"10481",
+   "status":"1",
+   "region":"North Asia",
+   "country":"China",
+   "city":"Chengdu",
+   "property":"fraserresidencechengdu"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Residence city, London",
+   "hotelID":"50917",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Kingdom",
+   "city":"London",
+   "property":"fraserresidencecitylondon"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Residence Kuala Lumpur, Malaysia",
+   "hotelID":"62484",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Malaysia",
+   "city":"Kuala Lumpur",
+   "property":"fraserresidencekualalumpur"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Residence Menteng, Jakarta Indonesia",
+   "hotelID":"59367",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Indonesia",
+   "city":"Jakarta",
+   "property":"fraserresidencementengjakarta"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Residence Monument, London",
+   "hotelID":"52613",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Kingdom",
+   "city":"London",
+   "property":"fraserresidencemonumentlondon"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Residence Nankai, Osaka Japan",
+   "hotelID":"52632",
+   "status":"1",
+   "region":"North Asia",
+   "country":"Japan",
+   "city":"Osaka",
+   "property":"fraserresidencenankaiosaka"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Residence Prince of Wales Terrace, London",
+   "hotelID":"52614",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Kingdom",
+   "city":"London",
+   "property":"fraserresidenceprinceofwalesterracelondon"
+},
+{
+   "brand":"Fraser",
+   "name":"The Park International Hotel, London",
+   "hotelID":"75796",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"United Kingdom",
+   "city":"London",
+   "property":"fraserparkinternational"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Residence Sudirman, Jakarta Indonesia",
+   "hotelID":"51930",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Indonesia",
+   "city":"Jakarta",
+   "property":"fraserresidencesudirmanjakarta"
+},
+{
+   "brand":"Modena",
+   "name":"Modena by Fraser Changsha, China",
+   "hotelID":"77430",
+   "status":"1",
+   "country":"China",
+   "city":"Changsha",
+   "property":"modenachangsha"
+},
+{
+   "brand":"Modena",
+   "name":"Modena New District Wuxi, China",
+   "hotelID":"61168",
+   "status":"1",
+   "region":"North Asia",
+   "country":"China",
+   "city":"Wuxi",
+   "property":"modenanewdistrictwuxi"
+},
+{
+   "brand":"Modena",
+   "name":"Modena Putuo Shanghai, China",
+   "hotelID":"28047",
+   "status":"1",
+   "region":"North Asia",
+   "country":"China",
+   "city":"Shanghai",
+   "property":"modenaputuoshanghai"
+},
+{
+   "brand":"Modena",
+   "name":"Modena by Fraser, Bangkok Thailand",
+   "hotelID":"70822",
+   "status":"1",
+   "region":"North Asia",
+   "country":"Thailand",
+   "city":"Bangkok",
+   "property":"modenabangkok"
+},
+{
+   "brand":"Modena",
+   "name":"North Park Place, Bangkok Thailand",
+   "hotelID":"",
+   "status":"1",
+   "region":"North Asia",
+   "country":"Thailand",
+   "city":"Bangkok",
+   "property":"northparkplace"
+},
+{
+   "brand":"Modena",
+   "name":"Modena by Fraser, Buriram Thailand",
+   "hotelID":"4112",
+   "status":"1",
+   "region":"North Asia",
+   "country":"Thailand",
+   "city":"Buriram",
+   "property":"modenaburiram"
+},
+{
+   "brand":"Modena",
+   "name":"Modena ZhuanKou Wuhan, China",
+   "hotelID":"60476",
+   "status":"1",
+   "region":"North Asia",
+   "country":"China",
+   "city":"Wuhan",
+   "property":"modenazhuankouwuhan"
+},
+{
+   "brand":"Capri",
+   "name":"Capri by Fraser, Brisbane / Australia",
+   "hotelID":"63291",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Australia",
+   "city":"Brisbane",
+   "property":"capribyfraserbrisbaneaustralia"
+},
+{
+   "brand":"Capri",
+   "name":"Capri by Fraser, Barcelona / Spain",
+   "hotelID":"62258",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"Spain",
+   "city":"Barcelona",
+   "property":"capribyfraserbarcelona"
+},
+{
+   "brand":"Capri",
+   "name":"Capri by Fraser, Changi City / Singapore",
+   "hotelID":"57117",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Singapore",
+   "city":"Singapore",
+   "property":"capribyfraserchangicitysingapore"
+},
+{
+   "brand":"Capri",
+   "name":"Capri by Fraser, Frankfurt / Germany",
+   "hotelID":"64779",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"Germany",
+   "city":"Frankfurt",
+   "property":"capribyfraserfrankfurt"
+},
+{
+   "brand":"Capri",
+   "name":"Capri by Fraser, Leipzig / Germany",
+   "hotelID":"10881",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"Germany",
+   "city":"Leipzig",
+   "property":"capribyfraserleipzig"
+},
+{
+   "brand":"Capri",
+   "name":"Capri by Fraser, Frankfurt / Germany",
+   "hotelID":"10881",
+   "status":"1",
+   "region":"Europe/Middle East",
+   "country":"Germany",
+   "city":"Frankfurt",
+   "property":"capribyfraserfrankfurt"
+},
+{
+   "brand":"Capri",
+   "name":"Capri by Fraser, Ho Chi Minh city / Vietnam",
+   "hotelID":"58391",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Vietnam",
+   "city":"Ho Chi Minh",
+   "property":"capribyfraserhochiminhcity"
+},
+{
+   "brand":"Capri",
+   "name":"Capri by Fraser, Johor Bahru / Malaysia",
+   "hotelID":"6098",
+   "status":"1",
+   "region":"Asia Pacific/Australia",
+   "country":"Malaysia",
+   "city":"Johor Bahru",
+   "property":"caprijohorbahru"
+},
+{
+   "brand":"Capri",
+   "name":"Capri by Fraser, Berlin / Germany",
+   "hotelID":"77292",
+   "status":"1",
+   "region":"Berlin/Germany",
+   "country":"Germany",
+   "city":"Berlin",
+   "property":"capribyfraserberlin"
+},
+{
+   "brand":"Fraser",
+   "name":"Fraser Suites Abuja",
+   "hotelID":"78299",
+   "status":"1",
+   "region":"",
+   "country":"Nigeria",
+   "city":"Abuja",
+   "property":"fsabuja"
+},
+{
+   "brand":"Capri",
+   "name":"Capri by Fraser, China Square / Singapore",
+   "hotelID":"7909",
+   "status":"1",
+   "region":"Singapore/ASPAC",
+   "country":"Singapore",
+   "city":"Singapore",
+   "property":"caprichinasquare"
+}]

@@ -1,0 +1,71 @@
+.faq{
+    &-header-container {
+      .faq-header {
+        margin-bottom: 10px;
+        @extend .d-flex;
+        @extend .justify-content-end;
+        @extend .align-items-end;
+        @extend .p-relative;
+        h2 {
+          font-size: 1.875rem;
+          font-weight: 500;
+          font-family: "Cormorant_Garamond-Medium";
+          color: #222222;
+          text-transform: uppercase;
+        }
+        p.faq-veiwmore {
+          font-family: "Cormorant_Garamond-SemiBold";
+          font-size: 0.9375rem;
+          font-weight: 400;
+          @extend .color-gold;
+          @extend .p-absolute;
+          right: 0px;
+          margin-bottom: 0;
+          text-transform: uppercase;
+        }
+      }
+    }
+    &-body-container {
+      @extend .d-flex;
+      flex-wrap: wrap;
+      .row{
+        flex: 0 48%;
+        margin-right: 2%;
+      }
+      .faq_accordion{
+        @extend .p-relative;
+        &:last-child{
+          margin-right: 0;
+        }
+        &--header{
+          padding-bottom: 15px;
+          > p{
+            @extend .d-flex;
+            @extend .justify-content-end;
+            @extend .align-items-center;
+            font-family: 'Roboto-Regular';
+            font-size: 0.875rem;
+            color: #000000;
+            width: 450px;
+            margin-bottom: 0;
+            i{
+              @extend .p-absolute; 
+              right: 5px;
+              @extend .color-gold;
+            }
+          }
+        }
+        &--body{
+          border-bottom: 1px solid #866D4B;
+          font-family: 'Roboto-Regular';
+          font-size: 0.875rem;
+          &_container{
+            display: none;
+            &.show_body{
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }

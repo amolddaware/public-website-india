@@ -1,0 +1,64 @@
+.cmp-breadcrumb {
+    display: inline-block;
+    list-style: none;
+    padding: 20px 0;
+    &.top-padded {
+        margin-top: 150px;
+    }
+}
+
+.cmp-breadcrumb__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cmp-breadcrumb__item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    &:after {
+        content: 'chevron_right';
+        display: inline-block;
+        vertical-align: top;
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 1.125rem;
+        line-height: 1.3125rem;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        -moz-osx-font-smoothing: grayscale;
+        font-feature-settings: 'liga';
+        color: #939393;
+        margin-top: 1px;
+        font-size: 20px;
+    }
+    &:last-child {
+        &:after {
+            content: none;
+        }
+    }
+    .cmp-breadcrumb__item-link {
+        span {
+            color: #939393;
+            text-decoration: none;
+            font-family: 'Roboto-Regular';
+        }
+        &:hover {
+            span {
+                color: #866D4B;
+            }
+        }
+    }
+}
+
+.cmp-breadcrumb__item--active {
+    color: #866D4B;
+    font-family: 'Roboto-Bold';
+}

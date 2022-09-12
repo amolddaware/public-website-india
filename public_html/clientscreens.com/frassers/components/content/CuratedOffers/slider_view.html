@@ -1,0 +1,91 @@
+<section class="curated_offers bg-background-dark-cream carousel-view"
+         data-offer-list="../../resources/utils/offerList.json"
+  data-offer-api="https://109859-fraserpoc.adobeioruntime.net/api/v1/web/fraserpoc-0.0.1/offer-hotel-rates?hotelId={0}&currencyCode={1}&memberRateCode={2}&rateCode={3}&offerStartDate={4}&offerEndDate={5}">
+  <div class="curated_offers-header-container">
+    <div class="curated_offers-header">
+      <div class="grid-container">
+        <div class="column curated_offers-header">
+          <h2>Curated Offers</h2>
+          <p class="curated_offers-veiwmore">
+              <a href="#">See All Offers</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="curated_swiper swiper-container">
+      <div class="swiper-wrapper">
+        
+      </div>
+    </div>
+  <script type="text/template" class="template_offer_info">
+    <div class="swiper-slide"
+         data-hotel-id="<%- hotelID %>"
+         data-country="<%- country %>"
+         data-city="<%- city %>"
+         data-member-rate-code="<%- memberRateCode %>"
+         data-rate-code="<%- rateCode %>"
+         data-promo-code="<%- promoCode %>"
+         data-offer-start-date="<%- startDate %>"
+         data-offer-end-date="<%- endDate %>"
+         data-override-regular-price="<%- overrideRegularPrice %>"
+         data-override-regular-price-value="<%- overrideRegularPriceValue %>"
+         data-hide-regular-price="<%- hideRegularPrice %>"
+         data-override-member-price="<%- overrideMemberPrice %>"
+         data-override-member-price-value="<%- overrideMemberPriceValue %>"
+         data-hide-member-price="<%- hideMemberPrice %>"
+         data-offer-details-path="<%- offerPath %>"
+         data-memberexclusive="<%- memberExclusive %>">
+      <div class="curated_offers__item">
+        <div class="curated_offers__image">
+          <% if(memberExclusive == 'true') { %><p class="curated_offers__exclusive">MEMBER EXCLUSIVE</p><% } %>
+          <a href="#">
+            <img src="<%- offerImage %>" loading="lazy" />
+          </a>
+        </div>
+        <div class="curated_offers__highlights">
+          <a href="#" class="curated_offers__highlights--title"><%= offerName %></a>
+          <p class="curated_offers__highlights--desc"><%= offerDescription %></p>
+          <a class="curated_offers__highlights--link" href="<%= offerPath %>">View Details</a>
+          <div class="curated_offers__highlights_pricing mt-15">
+            <p class="normal-price">
+              <span class="normal-price-text">from</span>
+              <span class="normal-price-display"></span>
+            </p>
+            <p class="member-price">
+              <span class="member-price-text">member only</span>
+              <span>
+                <img src="../../../resources/images/offers/color.png" loading="lazy" />
+                <span class="member-price-display"></span>
+              </span>
+            </p>
+            <p>
+              <button class="btn btn-secondary">check rates</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+  <form
+          id="booking-form"
+          action="https://be-cuat.synxis.com/"
+          method="get"
+          target="_blank"
+          autocomplete="off"
+  >
+    <input type="hidden" id="level" name="level" value="hotel" />
+    <input type="hidden" id="hotel" name="hotel" value="" />
+    <input type="hidden" id="depart" name="depart" value="" />
+    <input type="hidden" id="arrive" name="arrive" value="" />
+    <input type="hidden" id="chain" name="chain" value="10322" />
+    <input type="hidden" id="adult" name="adult" value="1" />
+    <input type="hidden" id="child" name="child" value="0" />
+    <input type="hidden" id="childages" name="childages" value="" />
+    <input type="hidden" id="currency" name="currency" value="SGD" />
+    <input type="hidden" id="locale" name="locale" value="en-US" />
+    <input type="hidden" id="rooms" name="rooms" value="1" />
+    <input type="hidden" id="Promo" name="Promo" value="" />
+  </form>
+</section>

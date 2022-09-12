@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Frassers Hospitality Screens"
+AuthUserFile "/home/aiqe9659hlmx/.htpasswds/public_html/clientscreens.com/frassers/passwd"
+require valid-user

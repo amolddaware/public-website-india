@@ -1,0 +1,241 @@
+.content-carusel {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    @include breakpoint(ipad-max) {
+        padding-bottom: 30px;
+    }
+    &.lg-devices {
+        @include breakpoint(medium-desktop-min) {
+            display: block;
+        }
+        @include breakpoint(ipad-max) {
+            display: none;
+        }
+    }
+    &_slides {
+        width: 1200px;
+       
+        height: 90vh;
+        @include breakpoint(ipad-max) {
+            max-width: 600px;   
+            height: 70vh;        
+        }
+        @include breakpoint(mobile-max) {
+            max-width: 400px;
+        }
+       
+        
+        position: relative;
+        &_left {
+            width: 611px;
+            height: 665px;
+            border: 1px solid gray;
+            float: left;
+            position: absolute;
+            left: 40px;
+            top: 115px;
+            @include breakpoint(ipad-max) {
+                position: absolute;
+                top: 50px;
+                max-width: 450px;
+                height: 570px;
+                left: 15%;     
+            }
+            @include breakpoint(mobile-max) {
+                max-width: 350px;
+                left: 7%;
+                height: 500px;
+            }
+           
+            background-color: white;
+            &_card {
+                display: none;
+                &_image {
+                    width: 250px;
+                    overflow: hidden;
+                    margin: auto;
+                    height: 380px;
+                    
+                    @include breakpoint(ipad-max) {
+                        
+                        width: 230px;
+                      
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: -10px;
+                        margin-bottom: -30px;
+                    }
+                    @include breakpoint(mobile-max) {
+                        height: 300px;
+                        width: 190px;
+                        margin-bottom: -30px;
+                        margin-left: auto;
+                        margin-right: auto;
+                      
+                    }
+                    
+                    
+                    img {
+                        
+                        height: 80%;
+                        margin-top: 45px;
+                        object-fit: cover;
+                        
+                        @include breakpoint(ipad-max) {
+                            height: 70%;
+                        }
+                        @include breakpoint(mobile-max) {
+                        height: 70%;  
+                        margin-left: auto;
+                        padding-left: 5px;
+                        margin-right: auto; 
+                        }
+                        
+                    }
+                }
+                &_header {
+                    padding-top: 10px;
+                    text-align: center;
+                    font-size: 36px;
+                    
+                    font-family: 'Cormorant_Garamond-Medium';
+                    @include breakpoint(ipad-max) {
+                        padding-top: 0px;
+                        font-size: 20px;
+                    }
+                }
+                &_discription {
+                    font-size: 14px;
+                    font-family: 'Roboto-Regular';
+                    width: 350px;
+                    text-align: center;
+                    margin: auto;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    word-wrap: break-word;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    p {
+                        margin: 25px 0;
+                    }
+                    @include breakpoint(ipad-max) {
+                        p{
+                            margin: 5px 0;
+                        }
+                    }
+                }
+                &_fotter {
+                    font-size: 16px;
+                    font-family: "Cormorant_Garamond-SemiBold";
+                    color: #866D4B;
+                    text-align: center;
+                    margin: 20px 0;
+                    @include breakpoint(ipad-max) {
+                        margin: 10px 0;
+                    }
+                }
+            }
+            &_icons {
+                display: flex;
+                justify-content: flex-end;
+                bottom: 20px;
+                position: relative;
+                i {
+                    color: grey;
+                    margin-right: 20px;
+                    font-size: 50px;
+                    cursor: pointer;
+                }
+            }
+        }
+        &_right {
+            width: 628px;
+            height: 776px;
+             float: right;
+            display: none;
+            @include breakpoint(ipad-max) {
+                float: none;
+                height: 650px;   
+            // border: 1px solid red;
+            }
+            @include breakpoint(mobile-max) {
+                max-width: 400px;
+            }
+           
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+
+//   @media (min-width: 768px) and (max-width: 1024px){
+     
+// .content-carusel
+// {
+//     padding-bottom: 30px;
+// }
+     
+//       .content-carusel_slides_right
+//       {
+          
+//           float: left;
+        
+         
+        
+//       }
+//       .content-carusel_slides_left
+//       {
+//           left: 10%;
+//           top:70px;
+//           width: 540px;
+//           margin-left: auto;
+//           margin-right: auto;
+//       }
+
+//       .content-carusel_slides_left_icons
+//       {
+//           margin-bottom: 50px;
+//       }
+//   }
+   
+
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
